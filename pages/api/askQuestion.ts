@@ -29,9 +29,9 @@ export default async function handler(
       user : {
         _id:'ChatGPT',
         name: 'ChatGPT',
-        avatar: "https://links.papareact.com/89k",       
+        avatar: "https://links.papareact.com/89k",
       },
-    }
+    };
 
     await adminDb.collection('users')
     .doc(session?.user?.email)
